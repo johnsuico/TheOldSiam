@@ -1,6 +1,5 @@
 /* ABOUT */
 .about {
-    min-height: 35vh;
     color: white;
     display: flex;
     align-items: center;
@@ -42,11 +41,19 @@
     .about-info p {
         font-size: 32px;
     }
+    .about img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .about-info p {
         font-size: 22px;
+    }
+    .about img {
+        width: 100%;
+        height: auto;
     }
 }
 
