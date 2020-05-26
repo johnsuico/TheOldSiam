@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+.menu {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.80);
+    width: 80%;
+    margin: auto;
+    margin-top: 8vh;
+}
+
+.menu-caption {
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+}
+
+.menu-caption h2 {
+    font-family: 'Archivo Black', 'Montserrat';
+    font-size: 48px;
+}
+
+.menu-caption p {
+    font-size: 28px;
+}
+
+.menu-caption .menu-other-info p {
+    font-size: 18px;
+}
+
+.food-choice {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.food-choice-alt {
+    width: 80vw;
+}
+
+.food-choice .names {
+    flex: 1.2;
+    text-align: left;
+}
+
+.food-choice .size-price {
+    flex: 1;
+}
+
+.inline-food-choice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-food-choice .names {
+    font-size: 24px;
+}
+
+.inline-food-choice .size-price {
+    font-size: 24px;
+}
+
+/* MENU ITEMS */
+.menu-item {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item-multiple {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-item-title {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.menu-item-info {
+    max-width: 80%;
+}
+
+.sub-title {
+    font-size: 26px;
+}
+
+.menu-item .price {
+    font-size: 30px;
+}
+
+.menu-item-caption {
+    font-size: 26px;
+}
+/* END MENU ITEMS */
