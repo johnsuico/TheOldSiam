@@ -105,3 +105,152 @@
     font-size: 26px;
 }
 /* END MENU ITEMS */
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    .menu-caption h2 {
+        font-size: 36px;
+    }
+
+    .menu-caption p {
+        font-size: 22px;
+    }
+
+    .menu-caption .menu-other-info p {
+        font-size: 16px;
+    }
+
+    .menu-item-title {
+        font-size: 22px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    .menu-item-caption {
+        font-size: 20px;
+    }
+
+    .menu-item .price {
+        font-size: 20px;
+    }
+
+    .inline-food-choice .names {
+        font-size: 18px;
+    }
+
+    .inline-food-choice .size-price {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-caption h2 {
+        font-size: 30px;
+    }
+
+    .menu-caption p {
+        font-size: 18px;
+    }
+
+    .menu-caption .menu-other-info p {
+        font-size: 14px;
+    }
+
+    .menu-item-title {
+        font-size: 18px;
+    }
+
+    .sub-title {
+        font-size: 14px;
+    }
+
+    .menu-item-caption {
+        font-size: 16px;
+    }
+
+    .menu-item .price {
+        font-size: 16px;
+    }
+
+    .food-choice .names {
+        font-size: 14px;
+    }
+
+    .food-choice .size-price {
+        font-size: 14px;
+    }
+
+    .inline-food-choice .names {
+        font-size: 16px;
+    }
+
+    .inline-food-choice .size-price {
+        font-size: 16px;
+    }
+
+    .food-choice-alt .names {
+        font-size: 16px;
+    }
+
+    .food-choice-alt .size-price {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .menu-caption h2 {
+        font-size: 18px;
+    }
+
+    .menu-caption p {
+        font-size: 10px;
+    }
+
+    .menu-caption .menu-other-info p {
+        font-size: 10px;
+    }
+
+    .menu-item-title {
+        font-size: 12px;
+    }
+
+    .sub-title {
+        font-size:9px;
+    }
+
+    .menu-item-caption {
+        font-size: 12px;
+    }
+
+    .menu-item .price {
+        font-size: 10px;
+    }
+
+    .food-choice .names {
+        font-size: 12px;
+    }
+
+    .food-choice .size-price {
+        font-size: 10px;
+    }
+
+    .inline-food-choice .names {
+        font-size: 8px;
+    }
+
+    .inline-food-choice .size-price {
+        font-size: 10px;
+    }
+
+    .food-choice-alt .names {
+        font-size: 12px;
+    }
+
+    .food-choice-alt .size-price {
+        font-size: 12px;
+    }
+}
+
+/* END RESPONSIVE */

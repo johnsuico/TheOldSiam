@@ -31,8 +31,8 @@
 }
 
 .hero-caption .stars p {
-    margin-left: 10px;
-    font-size: 28px;
+    font-size: 26px;
+    padding-right: 10px;
 }
 /* END HERO */
 
@@ -45,6 +45,10 @@
     .hero-caption h2{
         font-size: 150px;
     }
+    .hero-caption .stars p {
+        font-size: 28px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -52,7 +56,7 @@
         background-position-x: 100%;
     }
     .hero-caption h2{
-        font-size: 124px;
+        font-size: 110px;
     }
 }
 
@@ -61,7 +65,7 @@
         background-position-x: 90%;
     }
     .hero-caption h2{
-        font-size: 56px;
+        font-size: 54px;
     }
     .stars {
         display: flex;
@@ -70,6 +74,27 @@
     }
     .stars p {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero-bg {
+        background-position-x: 90%;
+    }
+    .hero-caption h2{
+        font-size: 48px;
+    }
+    .stars div {
+        display: none;
+    }
+    .stars p {
+        display: none;
+    }
+    .nav-container .logo h1 {
+        font-size: 16px;
+    }
+    .nav-container .nav-link li {
+        font-size: 16px;
     }
 }
 
