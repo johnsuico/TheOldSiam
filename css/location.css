@@ -1,0 +1,88 @@
+/* LOCATION SECTION */
+
+.location {
+    min-height: 80vh;
+    display: block;
+    justify-content: space-between;
+    background-image: url("../images/location-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location h3 {
+    margin: 3vh;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 68px;
+}
+
+.location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.location-info .address {
+    color: white;
+    margin-right: 2%;
+}
+
+.address h4 {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 5%;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.location-info .address p {
+    font-size: 26px;
+}
+
+.map iframe {
+    border: 0;
+}
+
+/* END LOCATION SECTION */
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    .location-info {
+        flex-direction: column;
+    }
+    .location-info .address {
+        margin-bottom: 3vh;
+    }
+    .location-info .address p {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .location-info .address p {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .location h3 {
+        font-size: 34px;
+    }
+
+    .address h4 {
+        font-size: 24px;
+    }
+
+    }
+    .location-info .address p {
+        font-size: 18px;
+
+    }
+}
+/* END RESPONSIVE */
