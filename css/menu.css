@@ -201,55 +201,55 @@
 
 @media only screen and (max-width: 500px) {
     .menu-caption h2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .menu-caption p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .menu-caption .menu-other-info p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .menu-item-title {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .sub-title {
-        font-size:9px;
+        font-size:12px;
     }
 
     .menu-item-caption {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .menu-item .price {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .food-choice .names {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .food-choice .size-price {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .inline-food-choice .names {
-        font-size: 8px;
-    }
-
-    .inline-food-choice .size-price {
         font-size: 10px;
     }
 
-    .food-choice-alt .names {
+    .inline-food-choice .size-price {
         font-size: 12px;
     }
 
+    .food-choice-alt .names {
+        font-size: 14px;
+    }
+
     .food-choice-alt .size-price {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
