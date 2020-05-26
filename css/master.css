@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #252525;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* START NAVBAR */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.90);
+    height: 6vh;
+    position: fixed;
+    width: 100vw;
+
+}
+
+nav .nav-container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav .logo {
+    color: white;
+    height: 100%;
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-link li {
+    list-style-type: none;
+}
+
+nav .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+/* END NAVBAR*/
+
+/* HERO */
+.hero-bg {
+    background-image: url("../images/hero-image.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+}
+
+.hero-bg .hero-caption {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hero-caption h2 {
+    color: white;
+    font-size: 6vw;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.hero-caption .stars {
+    color: white;
+    size: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-caption .stars p {
+    margin-left: 10px;
+    font-size: 28px;
+}
+/* END HERO */
+
+/* ABOUT */
+.about {
+    min-height: 35vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.about-info h3 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 68px;
+}
+
+.about .about-info {
+    font-size: 26px;
+    flex-direction: column;
+    flex: 1;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.about-info div {
+    flex: 1;
+}
+
+.about-info img {
+    width: 50%;
+    height: auto;
+}
+/* END ABOUT */
+
+/* LOCATION SECTION */
+
+.location {
+    min-height: 80vh;
+    display: block;
+    justify-content: space-between;
+    background-image: url("../images/location-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location h3 {
+    margin: 3vh;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    font-size: 68px;
+}
+
+.location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.location-info .address {
+    color: white;
+    margin-right: 2%;
+}
+
+.address h4 {
+    font-family: 'Archivo Black', sans-serif;
+    margin: 5%;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.address p {
+    font-size: 26px;
+}
+
+.map iframe {
+    border: 0;
+}
+
+/* END LOCATION SECTION */
+
+/* FOOTER */
+footer {
+    background-color: #252525;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+footer p{
+    width: 80%;
+    margin: auto;
+}
+/* END FOOTER */
