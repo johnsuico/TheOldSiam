@@ -41,6 +41,92 @@ nav .nav-link li {
 nav .nav-link a {
     text-decoration: none;
     color: white;
-    font-size: 22px;
+    font-size: 24px;
 }
 /* END NAVBAR*/
+
+/* MENU LINKS */
+.menu-links {
+    position: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 5.9vh;
+    background-color: rgba(0, 0, 0, 0.90);
+    width: 15%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+}
+
+.menu-links li {
+    list-style-type: none;  
+}
+
+.menu-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding: 5% 0;
+    padding-left: 10%;
+}
+/* END MENU LINKS */
+
+/* ANIMATIONS */
+.nav-active {
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* END ANIMATIONS */
+
+/* RESPONSIVE */
+/*iPad Pro Portrait*/
+@media only screen and (max-width: 1024px) {
+    .menu-links {
+        width: 30%;
+    }
+    .menu-links li a {
+        font-size: 22px;
+    }
+}
+/*iPad Pro Landscape*/
+@media only screen and (max-width: 1366px) {
+    .menu-links {
+        width: 20%;
+    }
+}
+
+/*iPad Portrait*/
+@media only screen and (max-width: 768px) {
+    .menu-links {
+        width: 30%;
+    }
+    .menu-links li a {
+        font-size: 22px;
+    }
+}
+
+/* Phone Portrait*/
+@media only screen and (max-width: 500px) {
+    .menu-links {
+        width: 100%;
+    }
+    .menu-links li a {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+/* END RESPONSIVE */

@@ -37,13 +37,13 @@
 /* END HERO */
 
 /* RESPONSIVE */
-/* iPad Pro */
+/* iPad Pro Portrait*/
 @media only screen and (max-width: 1024px) {
     .hero-bg {
         background-position-x: 100%;
     }
     .hero-caption h2{
-        font-size: 172px;
+        font-size: 150px;
     }
 }
 
