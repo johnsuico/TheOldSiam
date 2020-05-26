@@ -14,15 +14,17 @@
 
 .about .about-info {
     font-size: 26px;
-    flex-direction: column;
+    flex-direction: column; 
     flex: 1;
     margin: auto;
     margin-left: 10%;
     margin-right: 5%;
+    padding: 5% 0;
 }
 
-.about-info div {
-    flex: 1;
+.about img {
+    width: 50%;
+    height: auto;
 }
 
 /* END ABOUT */

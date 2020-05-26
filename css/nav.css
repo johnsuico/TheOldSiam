@@ -17,11 +17,15 @@ nav .nav-container {
 }
 
 nav .logo {
-    color: white;
     height: 100%;
     font-family: 'Archivo Black', sans-serif;
     display: flex;
     align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
 }
 
 nav .nav-link {
