@@ -9,6 +9,9 @@ var navSlide = () => {
     menu.addEventListener('click', () => {
         menuLinks.classList.toggle('nav-active');
     });
+    menu.addEventListener('touched', () => {
+        menuLinks.classList.toggle('nav-active'); 
+    });
 }
 
 navSlide();
