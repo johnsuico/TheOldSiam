@@ -32,6 +32,7 @@ nav .nav-link {
     height: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 nav .nav-link li {
@@ -41,10 +42,10 @@ nav .nav-link li {
     cursor: pointer;
 }
 
-.nav-link li a {
+/* .nav-link li a {
     color: white;
     text-decoration: none;
-}
+} */
 /* END NAVBAR*/
 
 /* MENU LINKS */
