@@ -40,6 +40,11 @@ nav .nav-link li {
     font-size: 24px;
     cursor: pointer;
 }
+
+.nav-link li a {
+    color: white;
+    text-decoration: none;
+}
 /* END NAVBAR*/
 
 /* MENU LINKS */
