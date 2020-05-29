@@ -3,7 +3,13 @@ const navSlide = () => {
     const menuLinks = document.querySelector('.menu-links');
 
     // Toggle Nav
+    // menu.addEventListener('click', () => {
+    //     menuLinks.classList.toggle('nav-active');
+    // });
     menu.addEventListener('click', () => {
+        menuLinks.classList.toggle('nav-active');
+    });
+    menu.addEventListener('touchend', () => {
         menuLinks.classList.toggle('nav-active');
     });
 }
