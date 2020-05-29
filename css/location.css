@@ -9,6 +9,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 5%;
 }
 
 .location h3 {
@@ -42,10 +43,6 @@
 
 .location-info .address p {
     font-size: 26px;
-}
-
-.map {
-    margin-bottom: 5%;
 }
 
 .map iframe {
