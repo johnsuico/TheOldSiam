@@ -68,6 +68,7 @@ nav .nav-link {
     width: 15%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+    z-index: 1500;
 }
 
 .menu-links li {
