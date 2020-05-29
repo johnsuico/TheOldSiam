@@ -11,13 +11,13 @@
 // navSlide();
 
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
+    const menu = document.querySelector('.nav-link');
+    const nav = document.querySelector('.menu-links');
     const html = document.querySelector('html');
     const navLinks = document.querySelectorAll('.nav-links li');
 
     // Toggle Nav
-    burger.addEventListener('click', () => {
+    menu.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
         html.classList.toggle('no-scroll');
 
