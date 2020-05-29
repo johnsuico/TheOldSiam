@@ -41,10 +41,11 @@
 /* iPad Pro Portrait*/
 @media only screen and (max-width: 1024px) {
     .hero-bg {
-        background-position-x: 100%;
+        background-position-x: 35%;
+        background-attachment: scroll;
     }
     .hero-caption h2{
-        font-size: 150px;
+        font-size: 100px;
     }
     .hero-caption .stars p {
         font-size: 28px;
@@ -54,10 +55,10 @@
 
 @media only screen and (max-width: 768px) {
     .hero-bg {
-        background-position-x: 100%;
+        background-position-x: 50%;
     }
     .hero-caption h2{
-        font-size: 110px;
+        font-size: 90px;
     }
 }
 

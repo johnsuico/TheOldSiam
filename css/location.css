@@ -12,11 +12,11 @@
 }
 
 .location h3 {
-    margin: 3vh;
+    padding: 3%;
     color: white;
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
-    font-size: 68px;
+    font-size: 60px;
 }
 
 .location-info {
@@ -25,7 +25,6 @@
     align-items: center;
     width: 80%;
     margin: auto;
-    margin-bottom: 5vh;
 }
 
 .location-info .address {
@@ -67,6 +66,13 @@
 @media only screen and (max-width: 768px) {
     .location-info .address p {
         font-size: 26px;
+    }
+    .map {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5%;
     }
 }
 

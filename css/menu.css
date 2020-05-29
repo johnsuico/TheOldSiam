@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
-
-.menu {
+.menu-container {
     color: white;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.80);
@@ -201,7 +199,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .menu {
+    .menu-container {
         width: 90%;
     }
     .menu-caption h2 {

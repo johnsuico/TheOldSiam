@@ -1,50 +1,41 @@
-/* START NAVBAR */
+/* Navbar Styling */
+    nav {
+        background-color: rgba(0, 0, 0, 0.80);
+        height: 6vh;
+        position: fixed;
+        width: 100vw;
+    }
 
-nav {
-    background-color: rgba(0, 0, 0, 0.90);
-    height: 6vh;
-    position: fixed;
-    width: 100vw;
+    nav .nav-item-container {
+        width: 80%;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
 
-}
+    nav .logo {
+        height: 100%;
+        font-family: 'Archivo Black', sans-serif;
+        display: flex;
+        align-items: center;
+    }
 
-nav .nav-container {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    height: 100%;
-}
+    .logo a {
+        text-decoration: none;
+        color: white;
+    }
+/* End Navbar Styling */
 
-nav .logo {
-    height: 100%;
-    font-family: 'Archivo Black', sans-serif;
-    display: flex;
-    align-items: center;
-}
+/* Menu Drop Down */
+    .menu {
+        color: white;
+        font-size: 22px;
+    }
+/* End Menu Drop Down */
 
-.logo a {
-    text-decoration: none;
-    color: white;
-}
-
-nav .nav-link {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-nav .nav-link li {
-    list-style-type: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-/* END NAVBAR*/
-
-/* MENU LINKS */
+/* Menu Links */
 .menu-links {
     position: fixed;
     min-height: 100vh;
@@ -52,15 +43,14 @@ nav .nav-link li {
     flex-direction: column;
     right: 0;
     top: 5.9vh;
-    background-color: rgba(0, 0, 0, 0.90);
-    width: 15%;
+    background-color: rgba(0, 0, 0, 0.80);
+    width: 15vw;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
-    z-index: 1500;
 }
 
-.menu-links li {
-    list-style-type: none;  
+.menu-links li{
+    list-style: none;
 }
 
 .menu-links li a {
@@ -73,33 +63,20 @@ nav .nav-link li {
     padding: 5% 0;
     padding-left: 10%;
 }
-/* END MENU LINKS */
+/* End Menu Links */
 
-/* ANIMATIONS */
 .nav-active {
     transform: translateX(0);
 }
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-/* END ANIMATIONS */
 
 /* RESPONSIVE */
 /*iPad Pro Portrait*/
 @media only screen and (max-width: 1024px) {
     .menu-links {
-        width: 30%;
+        width: 50%;
     }
     .menu-links li a {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 /*iPad Pro Landscape*/
