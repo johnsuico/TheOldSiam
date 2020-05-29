@@ -44,6 +44,10 @@
     font-size: 26px;
 }
 
+.map {
+    margin-bottom: 5%;
+}
+
 .map iframe {
     border: 0;
 }
@@ -72,7 +76,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 5%;
     }
 }
 
