@@ -2,14 +2,8 @@ const navSlide = () => {
     const menu = document.querySelector('.nav-link');
     const menuLinks = document.querySelector('.menu-links');
 
-    // Toggle Nav
-    // menu.addEventListener('click', () => {
-    //     menuLinks.classList.toggle('nav-active');
-    // });
-    // menu.addEventListener('click', () => {
-    //     menuLinks.classList.toggle('nav-active');
-    // });
-    menu.addEventListener('touchend', () => {
+    //Toggle Nav
+    menu.addEventListener('click', () => {
         menuLinks.classList.toggle('nav-active');
     });
 }
