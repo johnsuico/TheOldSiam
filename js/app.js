@@ -13,7 +13,7 @@ const navSlide = function() {
     const menuLinks = document.querySelector('.menu-links');
 
     // Toggle Nav
-    menu.addEventListener('click', () => {
+    menu.addEventListener('click touchstart', () => {
         menuLinks.classList.toggle('nav-active');
     });
 }
