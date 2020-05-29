@@ -11,15 +11,15 @@
 // navSlide();
 
 const navSlide = () => {
-    const menu = document.querySelector('.nav-link');
-    const nav = document.querySelector('.menu-links');
-    // const html = document.querySelector('html');
-    const navLinks = document.querySelectorAll('.menu-links li');
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const html = document.querySelector('html');
+    const navLinks = document.querySelectorAll('.nav-links li');
 
     // Toggle Nav
-    menu.addEventListener('click', () => {
+    burger.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
-        // html.classList.toggle('no-scroll');
+        html.classList.toggle('no-scroll');
 
         // Animate Links
         navLinks.forEach((link, index) => {
