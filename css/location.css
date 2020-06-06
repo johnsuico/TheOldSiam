@@ -41,8 +41,16 @@
     font-size: 48px;
 }
 
+.address h5 {
+    font-size: 30px;
+}
+
 .location-info .address p {
     font-size: 26px;
+}
+
+.map {
+    width: 50%;
 }
 
 .map iframe {
@@ -61,6 +69,14 @@
     }
     .location-info .address p {
         font-size: 36px;
+    }
+    .address h5{
+        font-size: 40px;
+    }
+    .map {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }
 
@@ -83,6 +99,10 @@
 
     .address h4 {
         font-size: 24px;
+    }
+
+    .address h5 {
+        font-size: 20px;
     }
 
     .location-info .address p {
